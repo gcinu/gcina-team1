@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gcina-team1
+  host: gcina-team1
+  disk_quota: 1024M
+  services:
+  - gcina-team1-cloudantNoSQLDB
+  - gcina-team1-iotf-service
+  - availability-monitoring-auto
